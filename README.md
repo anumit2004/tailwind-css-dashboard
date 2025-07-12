@@ -1,12 +1,50 @@
-# React + Vite
+# Tailwind CSS Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Dukaan Dashboard
+A clean and modern responsive dashboard UI built using **React** and **Tailwind CSS**, featuring order data listing, live status indicators, sorting, and a collapsible sidebar.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+-  Built with **React + Tailwind CSS**
+-  **Responsive** layout with horizontal scrolling support
+-  Interactive Order Card component
+-  Sidebar with optional collapse behavior
+-  Clean visual indicators for status (Successful / Processing)
+-  Ideal for admin panel or order management UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📷 Preview
+
+<img width="1919" height="883" alt="image" src="https://github.com/user-attachments/assets/28df1bea-0b4a-4db0-8189-1f4e8c17b44f" />
+
+
+---
+
+## Folder Structure
+
+```
+ tailwind-css-dashboard/
+├── public/
+│   └── logo.png
+├── src/
+│   ├── components/
+│   │   └── CardData.jsx
+│   ├── OrderCard.jsx
+│   └── App.jsx
+├── tailwind.config.js
+└── index.css
+```
+
+---
+
+
+
+
+
+
+## 🙋‍♂️ Author
+
+Made by [Anumit Kumar Jana](https://github.com/anumit2004) 💻
